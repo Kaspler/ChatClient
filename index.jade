@@ -1,0 +1,38 @@
+doctype
+html
+    head
+        style(typeof='text/css').
+            [ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+                display: none !important;
+            }
+        link(rel='stylesheet' type='text/css' href='bower_components/bootstrap/dist/css/bootstrap.css')
+        link(rel='stylesheet' type='text/css' href='css/style.css')
+        title Chat
+    body(ng-app='chat' ng-controller='mainCtrl')
+        .container-fluid
+            .row
+                .col-md-3.col-md-offset-1
+                    h1 Chat
+            .row
+                .col-md-10.col-md-offset-1
+                    .panel.panel-default
+                        .panel-heading Messages
+                        .panel-body.messages-window
+                            .alert(ng-repeat='message in messages' ng-class="{'alert-warning':message.system, 'alert-success':!message.system}" ng-cloak) {{message.Content}}
+                            #chat-bottom
+                        .panel-footer
+                            form(ng-submit='sendMessage()')
+                                .input-group
+                                    input.form-control(type='text' ng-model='message' placeholder='Your message here...' required)
+                                    span.input-group-btn
+                                        button.btn.btn-success(type='button' ng-click='sendMessage()') Send
+                                input(type='submit' style='position: absolute; left: -9999px; width: 1px; height: 1px;')
+
+
+
+        script(src='bower_components/jquery/dist/jquery.js')
+        script(src='bower_components/bootstrap/dist/js/bootstrap.js')
+        script(src='bower_components/angular/angular.js')
+        script(src='bower_components/lodash/lodash.js')
+        script(src='app/app.js')
+
