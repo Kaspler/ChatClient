@@ -1,0 +1,29 @@
+{
+    "CurrencyName":"STPT",
+    "CurrencyLong":"Standard Tokenization Protocol",
+    "BaseCurrencyName":"BTC",
+    "IsRestricted":true,
+    "IsFeatured":true,
+    "Price":0.000000001,
+    "TotalSupply":75000000.00000000,
+    "TransactionMinimum":1000.00000000,
+    "IndividualCap":250000.00000000,
+    "StartDate":"2019-06-06T17:00:00.000Z",
+    "SaleStartDate":"2019-06-06T14:00:00.000Z",
+    "SaleEndDate":"2019-06-12T14:00:00.000Z",
+    "MarketGoLiveDate":"2019-06-13T00:00:00.000Z",
+    "IsEnabled":true,
+    "ContentMeta":{
+       "TosUrl":"https://bittrex.zendesk.com/hc/en-us/articles/360028952751",
+       "FeatureImageUrl_dark":"/Content/img/ieo/stpt/stpt-logo_dark.png",
+       "FeatureImageUrl_light":"/Content/img/ieo/stpt/stpt-logo_light.png",
+       "CurrencyLogoUrl":"/Content/img/ieo/stpt/stpt-coin-logo.png"
+    },
+    "InitialMarketName":"BTC-STPT",
+    "LogoUrl":null,
+    "FeatureImageUrl":null,
+    "TosUrl":"https://bittrex.zendesk.com/hc/en-us/articles/360028952751",
+    "SupplyRemaining":75000000.00000000,
+    "State":2,
+    "LastUpdated":"2019-06-05T23:19:42.650Z"
+ }
