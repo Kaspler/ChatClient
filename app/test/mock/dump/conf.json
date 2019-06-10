@@ -9,7 +9,7 @@
     "TransactionMinimum":1000.00000000,
     "IndividualCap":250000.00000000,
     "StartDate":"2019-06-06T17:00:00.000Z",
-    "SaleStartDate":"2019-06-06T14:00:00.000Z",
+    "SaleStartDate":"2019-06-11T14:00:00.000Z",
     "SaleEndDate":"2019-06-12T14:00:00.000Z",
     "MarketGoLiveDate":"2019-06-13T00:00:00.000Z",
     "IsEnabled":true,
